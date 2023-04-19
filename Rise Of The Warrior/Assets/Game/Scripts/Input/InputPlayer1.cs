@@ -43,7 +43,7 @@ public class InputPlayer1 : IInput_Controller
         return false;
     }
 
-    public override bool KeydownPunch()
+    public override bool KeydownAttack1()
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
@@ -51,7 +51,7 @@ public class InputPlayer1 : IInput_Controller
         }
         return false;
     }
-    public override bool KeydownKick()
+    public override bool KeydownAttack2()
     {
         if (Input.GetKeyDown(KeyCode.G))
         {
@@ -59,7 +59,7 @@ public class InputPlayer1 : IInput_Controller
         }
         return false;
     }
-    public override bool KeydownSpecialAttack()
+    public override bool KeydownAttack3()
     {
         if (Input.GetKeyDown(KeyCode.H))
         {

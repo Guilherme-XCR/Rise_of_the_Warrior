@@ -42,7 +42,7 @@ public class InputPlayer2 : IInput_Controller
         }
         return false;
     }
-    public override bool KeydownPunch()
+    public override bool KeydownAttack1()
     {
         if (Input.GetKeyDown(KeyCode.Comma))
         {
@@ -50,7 +50,7 @@ public class InputPlayer2 : IInput_Controller
         }
         return false;
     }
-    public override bool KeydownKick()
+    public override bool KeydownAttack2()
     {
         if (Input.GetKeyDown(KeyCode.Period))
         {
@@ -58,7 +58,7 @@ public class InputPlayer2 : IInput_Controller
         }
         return false;
     }
-    public override bool KeydownSpecialAttack()
+    public override bool KeydownAttack3()
     {
         if (Input.GetKeyDown(KeyCode.Semicolon))
         {
