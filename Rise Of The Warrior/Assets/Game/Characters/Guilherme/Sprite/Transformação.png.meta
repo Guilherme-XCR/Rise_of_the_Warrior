@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 52f85cd54752610458368447a2e85dd2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_4"
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 49
+        height: 98
+      alignment: 9
+      pivot: {x: 0.75510204, y: 0.24489796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c52ba987f19f747ab2e4c29f42bd69
+      internalID: 1473035278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_8"
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 23
+        height: 74
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.3243243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e394f27562d4a2444a11b37708d150b4
+      internalID: -852996396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_9"
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 23
+        height: 74
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.3243243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700bab1d03b80ba45b07146e439e8899
+      internalID: 496516646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_10"
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 0
+        width: 21
+        height: 74
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.3243243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42b0494f2fdab34180659b4c7daacd6
+      internalID: -1634095070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_11"
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 0
+        width: 24
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3243243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36ee4ffdecb24041aa291f7fd337da7
+      internalID: 147157833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_12"
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 0
+        width: 54
+        height: 54
+      alignment: 9
+      pivot: {x: 0.7777778, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326d93c7a8faa8f4a87ec6a9ebff7739
+      internalID: 129877817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_13"
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 0
+        width: 60
+        height: 43
+      alignment: 9
+      pivot: {x: 0.73333335, y: 0.55813956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0897834d6ca464b93190a551b29f1f
+      internalID: 1859451815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_14"
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 0
+        width: 53
+        height: 43
+      alignment: 9
+      pivot: {x: 0.7169811, y: 0.55813956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72e5084c42dd49449f786b9abb99403
+      internalID: -2105846947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_6"
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 0
+        width: 36
+        height: 85
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.28235295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e817f59232944747ae6e5eee55dac6e
+      internalID: 1229011077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 27
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7037037, y: 0.47058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ae88bc92fde914c874aa494245fad6
+      internalID: -2008289107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 50
+        height: 43
+      alignment: 9
+      pivot: {x: 0.7, y: 0.55813956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620d77f74b40a7e43b1ff8cd14a1e49b
+      internalID: 1314466747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_2"
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 56
+        height: 43
+      alignment: 9
+      pivot: {x: 0.71428573, y: 0.55813956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8361aa374e827a64eb3c0a0726c0d05b
+      internalID: -1163273437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 50
+        height: 46
+      alignment: 9
+      pivot: {x: 0.76, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c21d2f79bd57040b41edaa98f97cbc
+      internalID: -1206752280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_5"
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 50
+        height: 97
+      alignment: 9
+      pivot: {x: 0.74, y: 0.24742268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1d3cc4771f9544a8f36c1efeb5b517
+      internalID: 981446923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Transforma\xE7\xE3o_7"
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 0
+        width: 24
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd3ed02989ba644c985e8d7451dd18d
+      internalID: 846052627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Transforma\xE7\xE3o_0": -2008289107
+      "Transforma\xE7\xE3o_1": 1314466747
+      "Transforma\xE7\xE3o_10": -1634095070
+      "Transforma\xE7\xE3o_11": 147157833
+      "Transforma\xE7\xE3o_12": 129877817
+      "Transforma\xE7\xE3o_13": 1859451815
+      "Transforma\xE7\xE3o_14": -2105846947
+      "Transforma\xE7\xE3o_15": 231077714
+      "Transforma\xE7\xE3o_16": -1064547748
+      "Transforma\xE7\xE3o_2": -1163273437
+      "Transforma\xE7\xE3o_3": -1206752280
+      "Transforma\xE7\xE3o_4": 1473035278
+      "Transforma\xE7\xE3o_5": 981446923
+      "Transforma\xE7\xE3o_6": 1229011077
+      "Transforma\xE7\xE3o_7": 846052627
+      "Transforma\xE7\xE3o_8": -852996396
+      "Transforma\xE7\xE3o_9": 496516646
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
