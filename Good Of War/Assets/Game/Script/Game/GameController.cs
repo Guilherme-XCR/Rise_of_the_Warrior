@@ -102,7 +102,13 @@ public class GameController : MonoBehaviour
     IEnumerator RestartRound()
     {
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("Round");
+
+        //-------------DEMO-------------
+
+        SceneManager.LoadScene("Start");
+        //--------------------------
+
+        //SceneManager.LoadScene("Round");
     }
 
 
