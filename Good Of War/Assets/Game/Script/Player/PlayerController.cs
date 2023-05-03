@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private Transform enemy;
     private IInputController input;
+    private GameObject projectile;
+    [SerializeField] private Transform pivo;
 
     //vida
     [SerializeField] public float health = 100;
@@ -25,7 +27,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Image healthBar;          // -------------
 
 
-    [SerializeField] private string animator;
+    [SerializeField] public string animator;
     [SerializeField] private int directionMove;
     [SerializeField] private float movementSpeed = 3f;
     [SerializeField] private float jumpForce = 15f;
@@ -64,6 +66,20 @@ public class PlayerController : MonoBehaviour
 
         groundLayer = LayerMask.GetMask("Ground");
 
+
+        if(animator == "Caera")
+        {
+            projectile = Resources.Load<GameObject>("Caera_Projectile");
+        }
+        else if(animator == "Lorrigan")
+        {
+            projectile = Resources.Load<GameObject>("Lorrigan_Projectile");
+        }
+        else if (animator == "Ragnar")
+        {
+            projectile = Resources.Load<GameObject>("Ragnar_Projectile");
+        }
+        
     }
 
 
@@ -80,6 +96,7 @@ public class PlayerController : MonoBehaviour
             StopMovement();
             CoolDownCombo();
             pushBackMovement();
+
         }
         else
         {
@@ -194,14 +211,16 @@ public class PlayerController : MonoBehaviour
     }
     public void DistanceAttack()
     {
-        if (isGrounded && !isStunned && !isCrouching)
+        if (isGrounded && !isStunned && !isCrouching && !isAttacking)
         {
             anim.SetTrigger("DistanceAttack");
+            StartCoroutine(CreateDistanceAttack());
+
         }
     }
     public void SpecialAttack()
     {
-        if (isGrounded && !isStunned && !isCrouching)
+        if (isGrounded && !isStunned && !isCrouching && !isAttacking)
         {
             anim.SetTrigger("SpecialAttack");
         }
@@ -301,7 +320,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator CooldownDamage()
     {
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(1f);
         isPushBack = false;
         isStunned = false;
     }
@@ -312,6 +331,26 @@ public class PlayerController : MonoBehaviour
         anim.ResetTrigger("BasicAttack");
         cooldownCombo = false;
     }
+
+    IEnumerator CreateDistanceAttack()
+    {
+        yield return new WaitForSeconds(.5f);
+        
+        GameObject intanciaProjectile = Instantiate(projectile, pivo.position, Quaternion.identity);
+        if(intanciaProjectile != null)
+        {
+            if (isLookRight)
+            {
+                intanciaProjectile.GetComponent<Projectile>().direction = 1;
+            }
+            else
+            {
+                intanciaProjectile.GetComponent<Projectile>().direction = -1;
+            }
+        }
+
+    }
+
 
     /*
      * =-=-=-=-=-=-=-=-=-=- Controle da barra de vida -=-=-=-=-=-=-=-=-=-=-=-=-
@@ -325,7 +364,6 @@ public class PlayerController : MonoBehaviour
     /*
      * =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     */
-
 
 
     /*

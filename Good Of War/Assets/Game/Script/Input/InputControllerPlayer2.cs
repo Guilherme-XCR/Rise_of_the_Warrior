@@ -45,7 +45,7 @@ public class InputControllerPlayer2 : IInputController
     }
     public override bool BasicAttack()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             return true;
         }
@@ -54,7 +54,7 @@ public class InputControllerPlayer2 : IInputController
     public override bool DistanceAttack()
     {
 
-        if (Input.GetKeyDown(KeyCode.Keypad2))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             return true;
         }
@@ -63,7 +63,7 @@ public class InputControllerPlayer2 : IInputController
     }
     public override bool SpecialAttack()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad3))
+        if (Input.GetKeyDown(KeyCode.L))
         {
             return true;
         }

@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 6905ae93c4cd4564da744651d515922a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a805232d71e66a49a177d26605540f1
+      internalID: 682977600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 0
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec4704e333e7846a5d550cc27eb167
+      internalID: -1042048256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 45
+        height: 46
+      alignment: 9
+      pivot: {x: 0.37777779, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f488e5a0dcc7134ebd724d26835fc0c
+      internalID: 1116715258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 0
+        width: 46
+        height: 45
+      alignment: 9
+      pivot: {x: 0.36956522, y: 0.53333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61af901cd189d314da4ae326ad957114
+      internalID: -16328104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_5
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 51
+        height: 43
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.55813956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bb13d78f7d4414dbe508e085fa9dca
+      internalID: -1492297402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_6
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 0
+        width: 51
+        height: 44
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c72526f703632d4ba5a99c12778ed10
+      internalID: 687660506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_7
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 0
+        width: 51
+        height: 45
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.53333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f71430e5783974ebea87e3ba322672
+      internalID: -2059045595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_8
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 0
+        width: 44
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee9403f4671de04c8f234bdc5c96ad7
+      internalID: 1769920635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_9
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 0
+        width: 47
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4893617, y: 0.46153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba304a33409ab44a82a78c8584d8963
+      internalID: -766044366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_10
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 0
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5945946, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb78ddd3566132449c09d15d87f1b50
+      internalID: 1941571101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_11
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 0
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43f92c1998863047aa63de7cacdffe4
+      internalID: 1468713565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distance_Attack_Personagem_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 0
+        width: 51
+        height: 44
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e751452d930f30d4da679404248b5d80
+      internalID: 1901518500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Distance_Attack_Personagem_0: 682977600
+      Distance_Attack_Personagem_1: -1042048256
+      Distance_Attack_Personagem_10: 1941571101
+      Distance_Attack_Personagem_11: 1468713565
+      Distance_Attack_Personagem_12: 148311295
+      Distance_Attack_Personagem_13: -1235151794
+      Distance_Attack_Personagem_14: 800918066
+      Distance_Attack_Personagem_15: -2144469235
+      Distance_Attack_Personagem_2: 1116715258
+      Distance_Attack_Personagem_3: -16328104
+      Distance_Attack_Personagem_4: 1901518500
+      Distance_Attack_Personagem_5: -1492297402
+      Distance_Attack_Personagem_6: 687660506
+      Distance_Attack_Personagem_7: -2059045595
+      Distance_Attack_Personagem_8: 1769920635
+      Distance_Attack_Personagem_9: -766044366
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
